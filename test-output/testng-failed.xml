@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value="http://demo.guru99.com/v4/"/>
+  <parameter name="browserType" value="Chrome"/>
+  <test name="test-1(failed)">
+    <classes>
+      <class name="come.guru.test.GuruLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- come.guru.test.GuruLoginTest -->
+    </classes>
+  </test> <!-- test-1(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
